@@ -15,5 +15,16 @@ public class Main {
         System.out.println(pickedNumber);
         System.out.println("Welcome to my Number Guessing Game! To start, please guess a number between 1 and 100.");
         guess = keyboard.nextInt();
+        while(guess != pickedNumber) {
+            if (guess > pickedNumber) {
+                System.out.println("You guessed too high. Please try again.");
+                attempts = (attempts + 1);
+                guess = keyboard.nextInt();
+            } else {
+                System.out.println("You guessed too low. Please try again.");
+                attempts = (attempts + 1);
+                guess = keyboard.nextInt();
+            }
+        }
     }
 }

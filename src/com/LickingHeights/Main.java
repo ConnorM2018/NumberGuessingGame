@@ -26,5 +26,7 @@ public class Main {
                 guess = keyboard.nextInt();
             }
         }
+        System.out.println("CORRECT!");
+        System.out.println("Attempts: "+attempts);
     }
 }

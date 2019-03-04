@@ -12,7 +12,6 @@ public class Main {
         int attempts;
         pickedNumber = (int)(Math.random()*100);
         attempts = 1;
-        System.out.println(pickedNumber);
         System.out.println("Welcome to my Number Guessing Game! To start, please guess a number between 1 and 100.");
         guess = keyboard.nextInt();
         while(guess != pickedNumber) {

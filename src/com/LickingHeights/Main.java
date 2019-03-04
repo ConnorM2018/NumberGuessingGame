@@ -25,9 +25,9 @@ public class Main {
                 guess = keyboard.nextInt();
             }
         }
-        System.out.println("__________________________");
+        System.out.println("__________________________________________");
         System.out.println("CORRECT! The picked number was "+pickedNumber+"!");
         System.out.println("Total tries: "+attempts);
-        System.out.println("__________________________");
+        System.out.println("__________________________________________");
     }
 }
